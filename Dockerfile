@@ -5,7 +5,7 @@ MAINTAINER Vladimir Bulyga <zero@13w.me>
 RUN apt update && \
     apt install -y curl tar gcc libpcre3-dev zlib1g-dev make libssl-dev libluajit-5.1-dev && \
     cd /tmp && \
-    curl -L http://nginx.org/download/nginx-1.15.1.tar.gz -o nginx.tar.gz && \
+    curl -L http://nginx.org/download/nginx-1.15.7.tar.gz -o nginx.tar.gz && \
     curl -L https://github.com/simpl/ngx_devel_kit/archive/master.tar.gz -o ngx_devel_kit.tar.gz && \
     curl -L https://github.com/openresty/set-misc-nginx-module/archive/master.tar.gz -o set-misc-nginx-module.tar.gz && \
     curl -L https://github.com/openresty/lua-nginx-module/archive/master.tar.gz -o lua-nginx-module.tar.gz && \
